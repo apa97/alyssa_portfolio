@@ -1,0 +1,103 @@
+/* ----- IMAGES ----- */
+.footer-small {
+  width: 10rem;
+  height: auto;
+}
+
+/* Homepage */
+.portfolio-image {
+  max-width: 25rem;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 0.3rem;
+  border: 0.15rem solid #364f3d;
+}
+
+@media (max-width: 475px) {
+  .portfolio-image {
+    width: 90vw;
+    max-width: none;
+    height: auto;
+  }
+}
+
+.project-image {
+  width: 15rem;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  border-right: 0.15rem solid #364f3d;
+  /* align-items: center; */
+}
+
+/* Projects Page */
+.project-page-image {
+  width: 25rem;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* Munchie Page */
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: stretch;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.munchie-page-image {
+  display: block;
+  margin: 0.2rem auto;
+  max-width: 100%;
+  border-radius: 0.3rem;
+  border: 0.15rem solid #364f3d;
+}
+
+@media (max-width: 600px) {
+  .munchie-page-image {
+    width: 100%;
+  }
+}
+
+.wide-banner {
+  max-width: 100vw;
+  height: auto;
+}
+
+/* .brainstorm,
+.persona {
+  width: 49%;
+} */
+
+/* @media (max-width: 850px) {
+  .brainstorm,
+  .persona {
+    width: 149%;
+  }
+} */
+
+/* Resume Page */
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-image {
+  width: 40rem;
+  height: auto;
+  border: 0.15rem solid #364f3d;
+}
+
+@media (max-width: 775px) {
+  .resume-image {
+    width: 90vw;
+    max-width: none;
+    height: auto;
+  }
+}
